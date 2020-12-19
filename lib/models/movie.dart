@@ -29,7 +29,7 @@ class Movie {
   static Movie fromJson(dynamic json) {
     return Movie(
       overview: json['overview'],
-      popularity: json['popularity'],
+      popularity: double.tryParse(json['popularity'].toString()),
       posterPath: json['poster_path'],
       releaseDate: DateTime.tryParse(json['release_date']),
       title: json['title'],

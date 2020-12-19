@@ -12,9 +12,14 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Próximas Películas',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primaryColor: Colors.red,
+        brightness: Brightness.light,
+      ),
+      darkTheme: ThemeData(
+        primaryColor: Colors.red,
         brightness: Brightness.dark,
       ),
+      themeMode: ThemeMode.system,
       home: HomeScreen(),
     );
   }

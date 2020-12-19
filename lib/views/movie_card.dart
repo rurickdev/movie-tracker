@@ -60,10 +60,11 @@ class MovieCard extends StatelessWidget {
                 Container(
                   height: imageHeight,
                   width: imageWidth,
+                  color: Colors.black12,
                   child: Icon(
                     Icons.movie_filter,
                     size: 50,
-                    color: Colors.black45,
+                    color: Colors.black38,
                   ),
                 ),
               Expanded(

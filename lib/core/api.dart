@@ -17,7 +17,7 @@ class ApiClient {
   }
 
   static Future<List<Movie>> fetchMovies() async {
-    final fetchUrl = '$urlBase?$language&$apiKey&$region';
+    final fetchUrl = '$urlBase?$language&$apiKey';
     final response = await http.get(fetchUrl);
 
     if (response.statusCode == 200) {
