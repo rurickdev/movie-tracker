@@ -8,7 +8,7 @@ class ApiClient {
 
   static const posterUrlBase = 'https://image.tmdb.org/t/p/w300';
   static const urlBase = 'https://api.themoviedb.org/3/movie/upcoming';
-  static const apiKey = 'api_key=cb857e7fe789b1d0845a7f5e2802f301';
+  static const apiKey = 'api_key=[[TU_API_KEY]]';
   static const language = 'language=es-MX';
   static const region = 'region=MX';
 
